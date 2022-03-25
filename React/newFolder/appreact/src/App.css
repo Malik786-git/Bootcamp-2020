@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(245, 244, 240);
+  color: black;
+  text-align: center;
+}
+.dark{
+  background-color: rgb(15, 13, 13);
+  color: whitesmoke;
+}
+button{
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  background: rgb(255, 0, 64);
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  color: white;
+}
+h1{
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
